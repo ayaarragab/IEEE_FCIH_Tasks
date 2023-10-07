@@ -1,0 +1,73 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+.intro{
+    width: 100vw;
+    height: 100vh;
+    background-color: #0000004e;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #f4f4f4;
+}
+.intro p{
+    width: 50%;
+}
+.intro p::first-letter{
+    font-size: 3rem;
+}
+.layer{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../iStock-1412688053-scaled.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+.navbar {
+    list-style-type: none;
+    padding: 0;
+    border-bottom:3px solid #f4f4f4;
+}
+nav h1{
+    text-align: center;
+}
+.nav-item {
+    display: inline-block;
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+/* News Container Styles */
+.news-container2 {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffffe0;
+}
+.news-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.card {
+    margin: 20px;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border: 1px solid #007bff;
+}
+.card p {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.card a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+}
+.nav-item:hover{
+    color: #007bff;
+}
