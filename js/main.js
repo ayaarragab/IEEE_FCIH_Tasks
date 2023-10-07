@@ -4,6 +4,7 @@ async function fetchingNews(country)
     const apiUrl = `https://newsapi.org/v2/top-headlines?country=${country}&category=business&apiKey=${apiKey}`;
     var response = await fetch(apiUrl);
     var jsonData = await response.json();
+    console.log(jsonData);
     const content = document.getElementById('newsContent');
     let htmlcontent = ``;
     for (let i = 0; i < jsonData.articles.length; i++) {

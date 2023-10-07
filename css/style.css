@@ -39,13 +39,13 @@ nav h1{
     border-radius: 5px;
 }
 
-/* News Container Styles */
 .news-container2 {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
     background-color: #ffffffe0;
 }
+
 .news-container {
     max-width: 800px;
     margin: 0 auto;
