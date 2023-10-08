@@ -12,7 +12,7 @@ async function fetchingNews(country)
         htmlcontent += `
     <div class="card col-md-3">
         <p>${article.title}</p>
-        <a href="${article.url}" target="_blank">Read More</a>
+        <button type="button" class="btn btn-danger"><a href="${article.url}" target="_blank">Read More</a></button>
     </div>
         `
     };
