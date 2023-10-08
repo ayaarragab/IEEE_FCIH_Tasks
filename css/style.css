@@ -77,4 +77,7 @@ nav h1{
 .nav-item:hover{
     color: red;
 }
-/**/
+.drop-down button{
+    background-color: transparent;
+    border: none;
+}
