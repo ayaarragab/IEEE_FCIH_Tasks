@@ -81,3 +81,7 @@ nav h1{
     background-color: transparent;
     border: none;
 }
+.dropdown-menu{
+    font-size: 0.7rem;
+    width: fit-content;
+}
